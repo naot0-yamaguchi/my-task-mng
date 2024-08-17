@@ -1,0 +1,67 @@
+# Python関連
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# 環境設定
+.env
+*.env
+
+# バックアップファイル
+*.bak
+*.swp
+*.swo
+*~
+
+# エディタ関連
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ログファイル
+*.log
+
+# MacOS関連
+.DS_Store
+
+# SQLiteのデータベースファイル（もし使用している場合）
+*.sqlite3
+
+# PostgreSQL関連
+postgres_data/
+data/
+
+# Redis関連
+redis_data/
+
+# Docker関連
+docker-compose.override.yml
+docker-compose.prod.yml
+.dockerignore
+*.bak
+*~n
+
+# nginx関連
+# 通常、nginx.confはリポジトリに含めるが、変更やバックアップファイルは無視
+nginx.conf.*
+nginx.conf.bak
+
+# バイナリファイル
+*.exe
+*.dll
+*.so
+*.dylib
+
+# バックアップ
+*.bak
+*.old
+
+# バージョン管理対象外のコンテナ関連
+logs/

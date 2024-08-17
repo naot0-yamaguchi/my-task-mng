@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Task Manager - タスク一覧</title>
+    <script defer src="../static/js/index_load.js"></script>
+    <script defer src="../static/js/change_font_size.js"></script>
+    <script defer src="../static/js/add_new_task_form.js"></script>
+    <script defer src="../static/js/update_task.js"></script>
+    <script defer src="../static/js/delete_task.js"></script>
+    <script defer src="../static/js/logout.js"></script>
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="shortcut icon" href="../static/image/favicon.ico">
+</head>
+<body>
+    <h1>タスク一覧</h1>
+    <div class="logout_button_container">
+        <button class="logout-button" id="logoutButton">ログアウト</button>
+    </div>
+    <div class="main_container">
+        <div class="title_container">
+            <div class="task-header header-index">#</div>
+            <div class="task-header header-title">タイトル</div>
+            <div class="task-header header-detail">詳細</div>
+            <div class="task-header header-deadline">締切日</div>
+            <div class="task-header header-status">ステータス</div>
+            <div class="task-header header-action">操作</div>
+        </div>
+        <div class="contents_container">
+        </div>
+        <div class="add_button_container" id="add_button_container">
+            <img src="../static/image/icon.svg" alt="Add">
+        </div>
+    </div>
+</body>
+</html>
